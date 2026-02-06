@@ -1,5 +1,12 @@
+# Python virtual environment
 .venv/
-.terraform/
-.env
 __pycache__/
-*.tfstate*
+*.py[cod]
+
+# Terraform local state and binaries
+.terraform/
+*.tfstate
+*.tfstate.backup
+
+# Environment secrets (Never push these!)
+.env
